@@ -181,10 +181,6 @@ a.navbar-brand {
 .navbar-default .container {
   background-color: white; }
 
-@media (min-width: 768px) and (max-width: 1200px) {
-  .navbar-default .container {
-    width: 98%; } }
-
 ul.navbar-main {
   display: none;
   float: right; }
@@ -205,12 +201,28 @@ ul.navbar-main {
   font-weight: 400;
   text-transform: uppercase; }
 
+.sign-in-header {
+  margin-top: 1%;
+  float: right; }
+
+a.sign-in-btn {
+  background: #2A4E68;
+  padding: 7px 25px;
+  border-radius: 2px;
+  color: #fff;
+  float: right; }
+
+a.sign-in-btn:hover {
+  background: #286A9D;
+  color: #fff; }
+
 .navbar-default ul.navbar-main > li > a.sign-in-btn {
   background: #2A4E68;
   padding: 7px 25px;
   border-radius: 2px;
   color: #fff;
-  margin-top: 7px; }
+  margin-top: 7px;
+  float: right; }
 
 .navbar-default ul.navbar-main > li > a.sign-in-btn:hover {
   background: #286A9D;
@@ -317,7 +329,7 @@ i.fa-caret-right {
 /*Footer*/
 footer {
   background: #333333;
-  padding: 70px 0; }
+  padding: 25px 0; }
 
 .footer-links h3 {
   color: #fff;
@@ -341,6 +353,12 @@ footer {
   min-height: 40px;
   display: inline-block;
   margin-right: 10px; }
+
+.footer-zulip {
+  background: url('../images/footer-zulip.png') no-repeat; }
+
+.footer-zulip:hover {
+  background: url('../images/footer-zulip-hover.png') no-repeat; }
 
 .footer-twitter {
   background: url('../images/footer-twitter.png') no-repeat; }
@@ -367,7 +385,7 @@ footer {
   background: url('../images/footer-youtube-hover.png') no-repeat; }
 
 .fine-print {
-  margin-top: 20px;
+  margin-top: 10px;
   color: #aaa;
   font-size: 12px; }
 

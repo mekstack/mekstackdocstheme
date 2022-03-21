@@ -3,31 +3,17 @@
 {% else %}{# a template was rendered directly #}
 <!-- TEMPLATE_NAME: {{pagename}} -->
 {% endif %}
-{% include 'os_search_install.html' %}
-{% set osf_base_url = 'https://cloud.miem.hse.ru' %}
+{% set osf_base_url = 'https://mekstack.ru' %}
 <nav class="navbar navbar-default" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div class="brand-wrapper">
-        <a class="navbar-brand" href="https://cloud.miem.hse.ru"></a>
-      </div>
-      <div class="search-icon show"><i class="fa fa-search"></i> Search</div></div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      {% include 'os_search.html' %}
-      <ul class="nav navbar-nav navbar-main show">
-        {% include 'os_search_mobile.html' %}
-            <li>
-              <a href="{{osf_base_url}}" class="sign-in-btn">Log In</a>
-            </li>
-        </li>
-      </ul>
+        <div class="brand-wrapper">
+            <a class="navbar-brand" href="https://docs.cloud.miem.hse.ru/"></a>
+        </div>
+    </div>
+    <div class="sign-in-header">
+        <a href="{{osf_base_url}}" class="sign-in-btn">Log In</a>
     </div>
   </div>
   <!-- /.container -->
