@@ -671,6 +671,12 @@ a.docs-sidebar-section-title:hover {
 .docs-actions .fa-info-circle.docs-info-off {
   color: #999; }
 
+.fa-gitlab {
+  color: #DA422F; }
+
+.fa-gitlab:hover {
+  color: #9A201D; }
+
 .docs-actions .fa-bug {
   border-left: 1px solid #dae5ee;
   color: #DA422F;
