@@ -475,8 +475,7 @@ footer {
 
 .docs-sidebar-releases button.docs-sidebar-release-select {
   font-size: 11px;
-  width: 75%;
-  border-left: 1px solid #496e8a; }
+  width: 100%; }
 
 .docs-sidebar-releases button.docs-sidebar-release-select i {
   margin-left: 10px; }
