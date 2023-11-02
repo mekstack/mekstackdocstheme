@@ -155,6 +155,21 @@ a.navbar-brand {
   height: 35px;
   width: 135px; }
 
+.navbar-star{
+  margin: 0 0 10px 0;
+  padding: 10px;
+  float: left;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.star-git {
+  background: url('../images/star-git.png') left no-repeat;
+  display: flex;
+  align-content: center;
+  height: 30px;
+  width: 30px; }
+
 @media (min-width: 768px) and (max-width: 1025px) {
   .brand-wrapper {
     width: 75px;

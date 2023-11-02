@@ -1,6 +1,7 @@
 {% extends "basic/layout.html" %}
 
 {% block extrahead %}
+<link rel="icon" href="static/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% include 'css.html' %}
 {% if theme_analytics_tracking_code %}
@@ -43,7 +44,7 @@ ga('send', 'pageview');
               {% if next %}
               <a href="{{ next.link|e }}"><i class="fa fa-angle-double-right" data-toggle="tooltip" data-placement="top" title="Next: {{ next.title|striptags }}"></i></a>
               {% endif %}
-              <a id="logABugLink1" href="http://git.miem.hse.ru/mekstack/docs" target="_blank" title="Found an error or have suggestions? Open a pull request!"><i class="fa fa-gitlab" data-toggle="tooltip" data-placement="top" title="Edit this page"></i></a>
+              <a id="logABugLink1" href="https://github.com/mekstack/mekstackdocstheme" target="_blank" title="Found an error or have suggestions? Open a pull request!"><i class="fa fa-gitlab" data-toggle="tooltip" data-placement="top" title="Edit this page"></i></a>
           </div>
         </div>
         {% include 'sidebartoc.html' %}
